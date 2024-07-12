@@ -1,0 +1,37 @@
+.legend{
+    font-size: xx-large;
+   
+    font-style: oblique;
+}
+.log{
+text-align: center;
+font-size: xx-large;
+font-style: oblique;
+
+}
+.Id{
+
+text-align: center;
+    font-size: xx-large;
+    font-style: oblique;
+
+
+}
+   
+
+.bage{
+ font-size: x-large;
+
+font-style: oblique;
+text-align: right;
+}
+
+.all{ 
+    background-color: rgb(255, 0, 38);
+    width: 200;
+    text-align: center;
+    display: inline-block;
+}
+div.all img{
+    width: 100%;
+}

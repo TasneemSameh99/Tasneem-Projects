@@ -1,0 +1,43 @@
+.titel{
+    font-size: xx-large; 
+    
+    color: brown;
+}
+.Cen{
+    text-align: center;
+    font-size: xx-large;
+    font-style: initial;
+}
+.All{
+    text-align: center;
+    size: calc();font-size: xx-large;
+    font-style: oblique;
+}
+.Leg{
+    text-align: center;
+    font-size: xx-large;
+    font-style: initial;
+}
+.Up{
+    text-align: center;
+    size: calc(); font-size: xx-large;
+    font-style: oblique;
+}
+.p{
+    font-size: x-large
+    ;text-align: center;
+    text-decoration: wavy;
+}
+.women{
+    text-align: center;
+    font-size: medium;
+}
+.NAV{
+    text-align: center;
+    font-size: x-large;
+}
+.Legend{
+    text-align: center;
+    font-size: xx-large;
+font-style: inherit;  
+}

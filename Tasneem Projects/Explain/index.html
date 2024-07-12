@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe</title>
+   
+</head>
+
+<body>
+
+    <table border="1" align="center">
+        <thead>
+            <tr>
+                <th>Item</th>
+                <th>Quantity</th>
+                <th>Price</th>
+                <th>Total</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><input type="text" id="item1" value="chocolate" oninput="updateItem(1)"></td>
+                <td><input type="number" id="quantity1" value="1" oninput="calculateTotal()"></td>
+                <td><input type="number" id="price1" value="150" oninput="calculateTotal()"></td>
+                <td id="total1">10</td>
+            </tr>
+            <tr>
+                <td><input type="text" id="item2" value="cake" oninput="updateItem(2)"></td>
+                <td><input type="number" id="quantity2" value="1" oninput="calculateTotal()"></td>
+                <td><input type="number" id="price2" value="150" oninput="calculateTotal()"></td>
+                <td id="total2">30</td>
+            </tr>
+            <tr>
+                <td><input type="text" id="item3" value="waffle" oninput="updateItem(3)"></td>
+                <td><input type="number" id="quantity3" value="1" oninput="calculateTotal()"></td>
+                <td><input type="number" id="price3" value="150" oninput="calculateTotal()"></td>
+                <td id="total3">60</td>
+            </tr>
+            <tr>
+                <td><input type="text" id="item4" value="water" oninput="updateItem(4)"></td>
+                <td><input type="number" id="quantity4" value="1" oninput="calculateTotal()"></td>
+                <td><input type="number" id="price4" value="15" oninput="calculateTotal()"></td>
+                <td id="total4">100</td>
+            </tr>
+            <tr>
+                <td><input type="text" id="item5" value="ice cream" oninput="updateItem(5)"></td>
+                <td><input type="number" id="quantity5" value="1" oninput="calculateTotal()"></td>
+                <td><input type="number" id="price5" value="150" oninput="calculateTotal()"></td>
+                <td id="total5">150</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">Grand Total</td>
+                <td id="grandTotal">615</td>
+            </tr>
+        </tfoot>
+    </table>
+    <script src="script.js">
+    
+    </script>
+
+</body>
+
+</html>

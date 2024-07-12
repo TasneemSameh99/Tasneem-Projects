@@ -1,0 +1,30 @@
+
+
+
+body{
+    background-color: aquamarine;
+}
+
+.item{ 
+ width: 300px;
+    text-align: center;
+    float: right;
+}
+div img{
+    width: 100%;
+}
+h2{
+    text-align: center;
+    color: blue;
+}
+.clr{
+    clear: both;
+}
+.item2 {
+    width: 300px;
+    text-align: center;
+    float: left;
+}
+.clr2 {
+    clear: both;
+}

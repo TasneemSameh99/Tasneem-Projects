@@ -1,0 +1,25 @@
+.head{
+    font-style: oblique;
+    font-size: x-large;
+    counter-increment: inherit;
+    text-align: center;
+    font-weight: bold;
+
+}
+.ol{
+font-style: oblique;
+font-size: x-large;
+text-shadow: 0cm;
+
+
+}
+.recapes{
+font-style: oblique;
+    font-size: x-large;
+    text-shadow: 0cm;
+    text-align: center;
+
+}
+.all{
+    background-color: beige;
+}
